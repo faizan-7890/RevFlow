@@ -1,0 +1,60 @@
+{
+  "id": "03-budget-fit-location-mismatch",
+  "title": "Budget fits, location does not",
+  "duration_target": "2.0–2.5 min",
+  "language": "en",
+  "outcome": "location_mismatch",
+  "checkpoints": {
+    "intent": "self_use",
+    "geography": "no",
+    "budget": "yes",
+    "timeline": "unsure"
+  },
+  "turns": [
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Good afternoon. This is Meera, a consultant with Divyaashree Developers. I'm calling about Whispers of the Wind, near Nundhee Hills. Do you have a couple of minutes to speak?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Go on. I was looking at villa plots, but I assumed something closer in — Whitefield or Sarjapur."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Understood. This one sits in Nundhee Valley, on the Nundhee Hills, Devanahalli corridor, not in Whitefield. Were you looking at a home for yourselves, or more as an investment?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "For us. We want to move out of an apartment over the next few years. Budget is not the issue — we can do up to two crore."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Perfect, that band fits. Plots here begin at ninety-two point four lakh and go to about two point four six crore, taxes included. The open question is geography. Nundhee is a highland weekend and second-home landscape, not a city neighbourhood. How do you feel about that corridor?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Honestly, too far. I still come into the city four days a week. I don't want a two-hour mistake."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "That is a fair read, and I will not talk you past it. This valley is meant for people who want the hills, the seventy-four percent open space, and a slower weekend — not a weekday commute. If the location still feels off, I will not push."
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "I appreciate that. If you had something inside the outer ring I would listen. This one is not for me."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Understood. I will not set a visit. Thank you for being direct — it saves both of us a drive. I hope you find a plot that sits closer to the life you already have. I'll let you go."
+    }
+  ]
+}

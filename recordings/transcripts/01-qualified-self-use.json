@@ -1,0 +1,90 @@
+{
+  "id": "01-qualified-self-use",
+  "title": "Qualified self-use weekend home",
+  "duration_target": "2.5–3.0 min",
+  "language": "en",
+  "outcome": "expert_callback",
+  "checkpoints": {
+    "intent": "self_use",
+    "geography": "yes",
+    "budget": "yes",
+    "timeline": "yes"
+  },
+  "turns": [
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Good afternoon. This is Meera, a consultant with Divyaashree Developers. I'm calling about Whispers of the Wind, our private-valley villa-plot community near Nundhee Hills. Do you have a couple of minutes to speak?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Yes, I can talk for a few minutes. What is this regarding?"
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Understood, thank you. It's a private briefing on villa plots in Nundhee Valley. May I ask — were you looking at this more as a weekend home for yourself, or as an investment holding?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Weekend home. We live in Indiranagar and wanted somewhere we can drive out to on Friday evening."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Perfect. A second home in the hills is exactly how many of our families use it. And the Nundhee Hills, Devanahalli corridor — is that a geography you are comfortable with, rather than a central Bengaluru address?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Yes, we've driven up to Nundhee Hills several times. The air is the point, not being next to the office."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "That makes sense. On fitment — plots here begin at ninety-two point four lakh, going up to about two point four six crore, and that is inclusive of taxes. Is that the band you were considering?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Around a crore to a crore and a half is comfortable for us."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Understood. That sits well inside the community. One last checkpoint — this is an ongoing, phased project, with possession around December twenty twenty-nine. Are you comfortable holding through that horizon while the valley comes up?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "If the land and the master plan are right, twenty twenty-nine is fine. We are not in a rush to build tomorrow."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Appreciate you sharing that. Whispers of the Wind is designed as a private valley rather than a typical layout. About seventy-four percent of the land stays open — eco-parks, walking greens, and long hill views. At the heart is a twenty-thousand square-foot clubhouse. Plots run from twelve hundred to about thirty-two hundred square feet, so the homes sit in landscape, not on top of each other."
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "That density is what I care about. I don't want another gated grid."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Then you are looking at the right idea. If it suits you, I will have a property expert call you for a private briefing — no obligation — so you can see inventory in that one-crore band. What time works over the next day or two?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Tomorrow evening after seven. My name is Arjun Menon, this number is fine."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Perfect, Arjun. I will place you with an expert tomorrow after seven. Thank you for your time — I hope the valley feels like the weekend home you had in mind. I'll let you go."
+    }
+  ]
+}

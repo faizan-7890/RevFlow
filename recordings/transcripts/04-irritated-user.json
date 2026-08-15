@@ -1,0 +1,40 @@
+{
+  "id": "04-irritated-user",
+  "title": "Irritated caller, do-not-contact",
+  "duration_target": "0.7–1.2 min",
+  "language": "en",
+  "outcome": "do_not_contact",
+  "checkpoints": {
+    "intent": "unknown",
+    "geography": "unknown",
+    "budget": "unknown",
+    "timeline": "unknown"
+  },
+  "turns": [
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Good afternoon. This is Meera, a consultant with Divyaashree Developers. I'm calling about Whispers of the Wind, near Nundhee Hills. Do you have a couple of minutes to speak?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "How did you get this number? I am in a meeting. You people keep calling."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "I'm sorry to have caught you at a bad time. I'll let you go."
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "Don't just let me go. Take me off your list. I do not want another real-estate call."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Understood. I will note that you do not wish to be contacted again. I am sorry for the interruption. Goodbye."
+    }
+  ]
+}

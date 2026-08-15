@@ -1,0 +1,47 @@
+{
+  "replace": {
+    "Divyasree": "Divyaashree",
+    "Nandi": "Nundhee",
+    "Nandi Hills": "Nundhee Hills",
+    "Nandi Valley": "Nundhee Valley",
+    "lakh": "lakh",
+    "Lakh": "lakh",
+    "crore": "crore",
+    "Crore": "crore",
+    "Devanahalli": "Devanahalli",
+    "Bengaluru": "Bengaluru",
+    "Meera": "Meera"
+  },
+  "ipa": {
+    "Divyasree": "/d̪ɪvˈjaːʃriː/",
+    "Nandi": "/ˈnʊn̪d̪ʱi/",
+    "lakh": "/ləkʰ/",
+    "crore": "/kɾoːɾ/",
+    "Devanahalli": "/d̪eːʋənəˈhʌlli/",
+    "Bengaluru": "/beŋɡəˈluːɾu/"
+  },
+  "keyterms": [
+    "Divyasree",
+    "Whispers of the Wind",
+    "Nandi Hills",
+    "Nandi Valley",
+    "Devanahalli",
+    "Bengaluru",
+    "Meera",
+    "Private Valley",
+    "lakh",
+    "crore"
+  ],
+  "guide": [
+    { "term": "Divyasree", "spoken": "Div-yaa-shree" },
+    { "term": "Nandi", "spoken": "Nun-dhee" },
+    { "term": "Nandi Hills", "spoken": "Nun-dhee Hills" },
+    { "term": "Nandi Valley", "spoken": "Nun-dhee Valley" },
+    { "term": "Devanahalli", "spoken": "Dev-uh-nuh-HUL-lee" },
+    { "term": "Bengaluru", "spoken": "Ben-guh-LOO-roo" },
+    { "term": "lakh", "spoken": "lakh (luck + light h)" },
+    { "term": "crore", "spoken": "kror" },
+    { "term": "Meera", "spoken": "Mee-raa" },
+    { "term": "WOW", "spoken": "wow" }
+  ]
+}

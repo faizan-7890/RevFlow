@@ -1,0 +1,61 @@
+{
+  "id": "02-nri-investment",
+  "title": "NRI investment, early info, no re-ask",
+  "duration_target": "2.5–3.0 min",
+  "language": "en",
+  "outcome": "expert_callback",
+  "checkpoints": {
+    "intent": "investment",
+    "geography": "yes",
+    "budget": "yes",
+    "timeline": "yes"
+  },
+  "notes": "Prospect volunteers intent, geography and budget in the first reply. Agent must not re-ask those three.",
+  "turns": [
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Good evening. This is Meera, a consultant with Divyaashree Developers. I'm calling about Whispers of the Wind, our private-valley villa-plot community near Nundhee Hills. Do you have a couple of minutes to speak?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "I can talk. I'm based in Dubai, looking at land in North Bengaluru as a long-term hold, budget around two crore. Nundhee, Devanahalli is fine — I already know that corridor from the airport."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Understood — an N-R-I holding in the Nundhee, Devanahalli corridor, around two crore. I will not take you back over that. The only checkpoint I still need is timeline. This is a phased, ongoing project, with possession around December twenty twenty-nine. Are you comfortable with that horizon?"
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "For land, yes. I am not buying a ready apartment. What I need to understand is whether this is actually low density, or marketing language."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Fair question. Seventy-four percent of the land is kept open — eco-parks and long views to the hills. Plots are twelve hundred to about thirty-two hundred square feet, so you are buying a private valley plot, not a tight row house pad. The twenty-thousand square-foot clubhouse is for residents, not a public resort. Pricing for that two-crore band is inside the published range of ninety-two point four lakh to two point four six crore, taxes included."
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "And the yield? What do your investors typically make?"
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "We do not project returns on this call, and I will not quote a number I cannot stand behind. Clients usually weigh it as a long-horizon land holding in the airport-led North Bengaluru corridor. A property expert can share corridor context — not a guaranteed yield."
+    },
+    {
+      "role": "prospect",
+      "voice": "en-IN-PrabhatNeural",
+      "text": "That's a better answer than most people give me. All right. Can someone walk me through inventory on a video call this weekend? I'm Kabir Shah."
+    },
+    {
+      "role": "agent",
+      "voice": "en-IN-NeerjaNeural",
+      "text": "Of course, Kabir. I will have a property expert set a private video briefing this weekend, around your Dubai evening. They will stay with facts — inventory, plot sizes, and the December twenty twenty-nine delivery. Thank you for your time. I'll leave you to your evening."
+    }
+  ]
+}

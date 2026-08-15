@@ -1,0 +1,62 @@
+[
+  {
+    "type": "function",
+    "name": "schedule_expert_callback",
+    "description": "Book a follow-up call with a Divyasree Property Expert after the caller agrees to a next step.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "caller_name": { "type": "string" },
+        "phone": { "type": "string", "description": "Digits only if spoken; otherwise unknown" },
+        "preferred_window": { "type": "string" },
+        "intent": { "type": "string", "enum": ["self_use", "investment", "both", "unknown"] },
+        "geography_fit": { "type": "string", "enum": ["yes", "no", "unsure"] },
+        "budget_fit": { "type": "string", "enum": ["yes", "no", "stretch", "unknown"] },
+        "timeline_fit": { "type": "string", "enum": ["yes", "no", "unsure"] },
+        "language": { "type": "string", "enum": ["en", "hi", "hinglish"] },
+        "notes": { "type": "string" }
+      },
+      "required": ["preferred_window", "intent", "geography_fit", "budget_fit", "timeline_fit"]
+    }
+  },
+  {
+    "type": "function",
+    "name": "log_outcome",
+    "description": "Log a finished call that did not book an expert, including disqualifications and do-not-contact.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "outcome": {
+          "type": "string",
+          "enum": [
+            "permission_refused",
+            "do_not_contact",
+            "budget_mismatch",
+            "location_mismatch",
+            "timeline_mismatch",
+            "brochure_only",
+            "callback_later",
+            "wrong_number",
+            "not_decision_maker",
+            "other"
+          ]
+        },
+        "intent": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "required": ["outcome"]
+    }
+  },
+  {
+    "type": "function",
+    "name": "end_call",
+    "description": "End the live session after the final spoken sentence.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "reason": { "type": "string" }
+      },
+      "required": ["reason"]
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "id": "05-hindi-english",
+  "title": "Hinglish / Hindi code-switch, fully qualified",
+  "duration_target": "2.5–3.0 min",
+  "language": "hinglish",
+  "outcome": "expert_callback",
+  "checkpoints": {
+    "intent": "both",
+    "geography": "yes",
+    "budget": "yes",
+    "timeline": "yes"
+  },
+  "turns": [
+    {
+      "role": "agent",
+      "voice": "hi-IN-SwaraNeural",
+      "text": "Namaste, main Meera bol rahi hoon, Divyaashree Developers se. Whispers of the Wind ke baare mein call kiya hai — Nundhee Hills ke paas private valley villa plots. Kya aap do minute baat kar sakte hain?"
+    },
+    {
+      "role": "prospect",
+      "voice": "hi-IN-MadhurNeural",
+      "text": "Haan, boliye. Main Hindi mein theek hoon. Ye project kahan hai exactly?"
+    },
+    {
+      "role": "agent",
+      "voice": "hi-IN-SwaraNeural",
+      "text": "Nundhee Valley, Nundhee Hills ke paas, North Bengaluru. Devanahalli corridor. Pehle ye poochh loon — aap khud ke weekend ghar ke liye dekh rahe hain, ya investment ke liye?"
+    },
+    {
+      "role": "prospect",
+      "voice": "hi-IN-MadhurNeural",
+      "text": "Dono. Family ke liye second home, aur agar value bane to theek hai. Location se problem nahi, hum airport side pehle se dekh rahe hain."
+    },
+    {
+      "role": "agent",
+      "voice": "hi-IN-SwaraNeural",
+      "text": "Samajh gayi. Geography theek hai. Budget ke baare mein — yahan plots ninety-two point four lakh se shuru hote hain, takriban two point four six crore tak, tax included. Kya yahi range aap dekh rahe hain?"
+    },
+    {
+      "role": "prospect",
+      "voice": "hi-IN-MadhurNeural",
+      "text": "Haan, one crore ke around comfortable hai. Possession kab ka hai? Ready to move to nahi hoga na?"
+    },
+    {
+      "role": "agent",
+      "voice": "hi-IN-SwaraNeural",
+      "text": "Sahi pakda. Ye ongoing, phased project hai. Possession December twenty twenty-nine ke around hai. Ready villa nahi milti — aap plot lete hain, ghar baad mein guidelines pe banate hain. Is horizon se aap comfortable hain?"
+    },
+    {
+      "role": "prospect",
+      "voice": "hi-IN-MadhurNeural",
+      "text": "Haan, jaldi nahi hai. Thoda batao community kaisi hai."
+    },
+    {
+      "role": "agent",
+      "voice": "hi-IN-SwaraNeural",
+      "text": "Whispers of the Wind ek private valley ki tarah socha gaya hai, typical layout ki tarah nahi. Chhahattar percent zameen open rehti hai — eco-parks, walking greens, aur hills ke views. Beech mein bees hazaar square feet ka clubhouse hai. Plots twelve hundred se lagbhag thirty-two hundred square feet tak hain, isliye ghar landscape ke andar baithe hain, ek doosre ke upar nahi."
+    },
+    {
+      "role": "prospect",
+      "voice": "hi-IN-MadhurNeural",
+      "text": "Achha lagta hai. Koi expert se baat ho sakti hai? Meri wife bhi sunna chahegi. Kal shaam theek rahegi. Mera naam Rohan Gupta hai."
+    },
+    {
+      "role": "agent",
+      "voice": "hi-IN-SwaraNeural",
+      "text": "Bilkul, Rohan. Kal shaam property expert aap dono se private call karenge — koi pressure nahi. Aapka time dene ke liye dhanyavaad. Main aapko ab leave karti hoon."
+    }
+  ]
+}
