@@ -1,0 +1,22 @@
+{
+  "name": "aivoicebuilder-whispers-of-the-wind",
+  "version": "1.0.0",
+  "description": "Outbound AI Voice Agent for Divyasree Developers - Whispers of the Wind",
+  "scripts": {
+    "start": "node server/server.js",
+    "serve": "python server/server.py",
+    "generate-audio": "python scripts/generate_audio.py",
+    "generate-pdf": "python scripts/generate_system_prompt_pdf.py"
+  },
+  "keywords": [
+    "voice-ai",
+    "outbound-agent",
+    "real-estate",
+    "whispers-of-the-wind",
+    "divyasree",
+    "tts",
+    "edge-tts"
+  ],
+  "author": "Divyasree Developers / AIvoicebuilder",
+  "license": "MIT"
+}

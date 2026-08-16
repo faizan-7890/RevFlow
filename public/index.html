@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divyasree "Whispers of the Wind" — AI Voice Agent Showcase</title>
+  <meta name="description" content="Outbound AI Voice Agent (Meera) for Divyasree Developers' Whispers of the Wind luxury villa-plot community near Nandi Hills, North Bengaluru.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Top Global Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <div class="brand-logo-mark">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">DIVYASREE DEVELOPERS</span>
+          <span class="brand-sub">Whispers of the Wind (WOW) • Outbound Voice AI</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#showcase" class="nav-link active">Call Recordings (5 Flows)</a>
+        <a href="#simulator" class="nav-link">Live Bot Simulator</a>
+        <a href="#system-prompt" class="nav-link">System Prompt &amp; Phonetics</a>
+        <a href="#architecture" class="nav-link">Architecture</a>
+        <div class="download-cta-group">
+          <a href="assets/docs/Divyasree-WOW-Voice-Agent-System-Prompt.pdf" download class="btn btn-sm btn-outline">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            System Prompt PDF
+          </a>
+          <a href="assets/docs/WOW-voice-agent-PRD.pdf" download class="btn btn-sm btn-primary">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            PRD PDF
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="project-pill">Production AI Voice Consultant &bull; "Meera"</div>
+      <h1 class="hero-heading">Whispers of the Wind</h1>
+      <p class="hero-lead">
+        An intelligent outbound voice consultant that qualifies high-net-worth buyers in 2&ndash;3 minutes for Divyasree's private-valley villa-plot community in Nandi Valley, North Bengaluru.
+      </p>
+
+      <div class="project-specs-grid">
+        <div class="spec-card">
+          <span class="spec-label">Location</span>
+          <span class="spec-value">Nandi Valley, North Bengaluru</span>
+          <span class="spec-sub">Near Nandi Hills / Airport Corridor</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-label">Plot Sizes &amp; Pricing</span>
+          <span class="spec-value">1,200 &ndash; 3,199 sq.ft.</span>
+          <span class="spec-sub">₹92.4 Lakh &ndash; ₹2.46 Cr (incl. taxes)</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-label">Master Plan USP</span>
+          <span class="spec-value">74% Open Space &bull; 20k sq.ft Club</span>
+          <span class="spec-sub">Scenic hill views &amp; eco-parks</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-label">Delivery Horizon</span>
+          <span class="spec-value">December 2029</span>
+          <span class="spec-sub">Phased delivery &bull; Villa plots</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="main-container">
+
+    <!-- SECTION 1: Audio Recordings Showcase (5 Complete Flows) -->
+    <section id="showcase" class="section-block">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title">1. Test Call Recordings &amp; Conversation Flows</h2>
+          <p class="section-subtitle">
+            5 multi-turn synthesized voice recordings demonstrating natural cadence, pronunciation handling, upfront data deduction, graceful objection handling, and Hindi/Hinglish code-switching.
+          </p>
+        </div>
+      </div>
+
+      <!-- Scenario Selector Tabs -->
+      <div class="scenario-tabs-container">
+        <div class="scenario-tabs" id="scenarioTabs">
+          <button class="scenario-tab-btn active" data-scenario="01-qualified-self-use">
+            <span class="tab-badge">Flow 1</span>
+            <span class="tab-title">Qualified Weekend Home</span>
+            <span class="tab-tag tag-success">Callback Booked</span>
+          </button>
+          <button class="scenario-tab-btn" data-scenario="02-nri-investment">
+            <span class="tab-badge">Flow 2</span>
+            <span class="tab-title">Dubai NRI Investor</span>
+            <span class="tab-tag tag-info">No Re-ask &bull; ROI Handled</span>
+          </button>
+          <button class="scenario-tab-btn" data-scenario="03-budget-fit-location-mismatch">
+            <span class="tab-badge">Flow 3</span>
+            <span class="tab-title">Location Mismatch</span>
+            <span class="tab-tag tag-warning">Graceful Disqualification</span>
+          </button>
+          <button class="scenario-tab-btn" data-scenario="04-irritated-user">
+            <span class="tab-badge">Flow 4</span>
+            <span class="tab-title">Irritated Lead / DND</span>
+            <span class="tab-tag tag-danger">De-escalation &bull; DND</span>
+          </button>
+          <button class="scenario-tab-btn" data-scenario="05-hindi-english">
+            <span class="tab-badge">Flow 5</span>
+            <span class="tab-title">Hindi / Hinglish Bilingual</span>
+            <span class="tab-tag tag-purple">Code-Switch &bull; Callback</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Player & Live Transcript Card -->
+      <div class="player-transcript-card">
+        <!-- Scenario Summary Header -->
+        <div class="scenario-info-bar">
+          <div class="scenario-main-meta">
+            <h3 class="active-scenario-title" id="activeScenarioTitle">Qualified self-use weekend home</h3>
+            <p class="active-scenario-desc" id="activeScenarioDesc">
+              Prospect seeking a weekend home for his Indiranagar family. Validates permission, intent, geography, budget fit, timeline comfort, delivers the Private Valley pitch, and schedules an expert callback.
+            </p>
+          </div>
+          <div class="scenario-actions">
+            <a id="btnDownloadMp3" href="assets/audio/01-qualified-self-use.mp3" download class="btn btn-sm btn-outline">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              Download MP3
+            </a>
+            <button id="btnDownloadTranscript" class="btn btn-sm btn-outline">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+              JSON Transcript
+            </button>
+          </div>
+        </div>
+
+        <!-- Master Audio Player Control -->
+        <div class="audio-player-wrapper">
+          <audio id="mainAudioPlayer" preload="auto" src="assets/audio/01-qualified-self-use.mp3"></audio>
+          
+          <div class="player-controls">
+            <button id="btnPlayPause" class="btn-circle-play" aria-label="Play or Pause Call Audio">
+              <svg id="iconPlay" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <svg id="iconPause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+
+            <div class="time-display">
+              <span id="currentTime">0:00</span> / <span id="totalDuration">2:15</span>
+            </div>
+
+            <div class="timeline-slider-wrap">
+              <input type="range" id="timelineSlider" min="0" max="100" value="0" step="0.1" class="timeline-range">
+              <div class="timeline-progress-bar" id="timelineProgressBar"></div>
+            </div>
+
+            <div class="speed-selector">
+              <label for="playbackSpeed">Speed:</label>
+              <select id="playbackSpeed">
+                <option value="1">1.0x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Two Column View: Live Checkpoint State + Synchronized Interactive Transcript -->
+        <div class="scenario-details-grid">
+          <!-- Left: 4 Checkpoints & Outcome Inspector -->
+          <div class="scenario-checkpoints-panel">
+            <div class="panel-header">
+              <span class="panel-tag">Live State</span>
+              <h4 class="panel-title">Fitment Checkpoints</h4>
+            </div>
+
+            <div class="checkpoints-list">
+              <div class="checkpoint-item" id="cpIntent">
+                <div class="cp-indicator"></div>
+                <div class="cp-content">
+                  <span class="cp-name">1. Intent Check</span>
+                  <span class="cp-status" id="cpIntentStatus">Self-Use (Weekend Home)</span>
+                </div>
+              </div>
+
+              <div class="checkpoint-item" id="cpGeo">
+                <div class="cp-indicator"></div>
+                <div class="cp-content">
+                  <span class="cp-name">2. Geography Fit</span>
+                  <span class="cp-status" id="cpGeoStatus">Nandi Valley / Airport Corridor</span>
+                </div>
+              </div>
+
+              <div class="checkpoint-item" id="cpBudget">
+                <div class="cp-indicator"></div>
+                <div class="cp-content">
+                  <span class="cp-name">3. Budget Fitment</span>
+                  <span class="cp-status" id="cpBudgetStatus">₹1.0 &ndash; ₹1.5 Cr (Fits ₹92.4L+)</span>
+                </div>
+              </div>
+
+              <div class="checkpoint-item" id="cpTimeline">
+                <div class="cp-indicator"></div>
+                <div class="cp-content">
+                  <span class="cp-name">4. Timeline Fit</span>
+                  <span class="cp-status" id="cpTimelineStatus">Dec 2029 Delivery Comfortable</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Function Calling Trigger Box -->
+            <div class="tool-call-card">
+              <div class="tool-card-header">
+                <span class="tool-badge">Tool Emitted</span>
+                <span class="tool-name" id="emittedToolName">schedule_expert_callback</span>
+              </div>
+              <pre class="tool-json-preview"><code id="emittedToolJson"></code></pre>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Synchronized Transcript -->
+          <div class="transcript-scroll-panel">
+            <div class="transcript-header">
+              <span class="transcript-count" id="turnCountBadge">15 Spoken Turns</span>
+              <span class="transcript-tip">Click any bubble to play from that turn</span>
+            </div>
+            <div class="transcript-stream" id="transcriptStream">
+              <!-- Dynamically rendered transcript dialogue turns -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Live Interactive Voice Agent Simulator -->
+    <section id="simulator" class="section-block">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title">2. Live Interactive Bot Simulator</h2>
+          <p class="section-subtitle">
+            Test Meera's qualification logic live in your browser. Type your custom buyer persona or click one-touch test prompts. Watch the 4 checkpoints and function tools update in real time.
+          </p>
+        </div>
+      </div>
+
+      <div class="simulator-card">
+        <div class="simulator-grid">
+          <!-- Left: Chat Stream & Controls -->
+          <div class="sim-chat-container">
+            <div class="sim-chat-header">
+              <div class="agent-avatar-status">
+                <div class="avatar-ring">
+                  <span class="avatar-letter">M</span>
+                </div>
+                <div class="agent-meta">
+                  <span class="agent-name">Meera</span>
+                  <span class="agent-role">Divyasree Private-Client Consultant</span>
+                </div>
+              </div>
+              <div class="sim-audio-toggle">
+                <label class="toggle-switch">
+                  <input type="checkbox" id="chkSimAudio" checked>
+                  <span class="toggle-slider"></span>
+                </label>
+                <span class="toggle-label">Voice Audio (TTS)</span>
+              </div>
+              <button id="btnResetSim" class="btn btn-sm btn-ghost">Restart Call</button>
+            </div>
+
+            <!-- Quick Trigger Personas -->
+            <div class="quick-prompts-bar">
+              <span class="quick-title">Quick Test Prompts:</span>
+              <button class="btn-prompt-chip" data-text="Yes, I have two minutes. We live in Indiranagar and want a weekend villa plot around 1.2 Crore.">Weekend Home Buyer</button>
+              <button class="btn-prompt-chip" data-text="I'm an NRI in Dubai with a 2 Cr budget for investment. What is the expected ROI?">Dubai NRI (ROI Inquiry)</button>
+              <button class="btn-prompt-chip" data-text="Budget is fine (2 Cr) but I need something in Whitefield for daily office commute.">Whitefield Commuter (Mismatch)</button>
+              <button class="btn-prompt-chip" data-text="I'm in a meeting right now. Please remove me from your calling list.">Irritated / DND Request</button>
+              <button class="btn-prompt-chip" data-text="Namaste, main Hindi mein baat karna chahta hoon. Project ki details bataiye.">Switch to Hindi</button>
+            </div>
+
+            <!-- Message Stream -->
+            <div class="sim-messages-stream" id="simMessagesStream">
+              <!-- Rendered messages -->
+            </div>
+
+            <!-- Input Form -->
+            <form id="simInputForm" class="sim-input-form">
+              <input type="text" id="simInputText" class="sim-input-field" placeholder="Reply as a prospective buyer (e.g. 'I want a weekend home for 1.5 Cr near Nandi Hills')..." autocomplete="off">
+              <button type="submit" class="btn btn-primary btn-send">
+                <span>Send</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              </button>
+            </form>
+          </div>
+
+          <!-- Right: Dynamic State Engine Inspector -->
+          <div class="sim-state-inspector">
+            <div class="inspector-card">
+              <h4 class="inspector-title">Active Qualification State</h4>
+              <div class="state-meter-list">
+                <div class="meter-row">
+                  <span class="meter-label">Permission Gate</span>
+                  <span class="meter-val val-green" id="simStatePermission">Granted</span>
+                </div>
+                <div class="meter-row">
+                  <span class="meter-label">1. Intent</span>
+                  <span class="meter-val" id="simStateIntent">Pending</span>
+                </div>
+                <div class="meter-row">
+                  <span class="meter-label">2. Geography</span>
+                  <span class="meter-val" id="simStateGeo">Pending</span>
+                </div>
+                <div class="meter-row">
+                  <span class="meter-label">3. Budget Fit (&ge; ₹92.4L)</span>
+                  <span class="meter-val" id="simStateBudget">Pending</span>
+                </div>
+                <div class="meter-row">
+                  <span class="meter-label">4. Timeline (Dec 2029)</span>
+                  <span class="meter-val" id="simStateTimeline">Pending</span>
+                </div>
+                <div class="meter-row">
+                  <span class="meter-label">Language Mode</span>
+                  <span class="meter-val" id="simStateLang">English (en-IN)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="inspector-card">
+              <h4 class="inspector-title">Autonomous Action Emitted</h4>
+              <div class="action-payload-box" id="simToolEmittedBox">
+                <span class="text-muted">Awaiting completion of qualification checkpoints...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: System Prompt, Pronunciation Dictionary & Knowledge Base -->
+    <section id="system-prompt" class="section-block">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title">3. System Prompt &amp; Phonetics Specification</h2>
+          <p class="section-subtitle">
+            Complete production instructions, phonetic pronunciation dictionary, canonical project knowledge base, and negative guardrails.
+          </p>
+        </div>
+        <div class="doc-download-bar">
+          <a href="assets/docs/Divyasree-WOW-Voice-Agent-System-Prompt.pdf" download class="btn btn-outline btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Download System Prompt PDF
+          </a>
+        </div>
+      </div>
+
+      <div class="prompt-tabs-card">
+        <div class="prompt-tab-nav">
+          <button class="prompt-nav-btn active" data-target="tabSystemPrompt">System Message (Markdown)</button>
+          <button class="prompt-nav-btn" data-target="tabPronunciation">Phonetic Dictionary</button>
+          <button class="prompt-nav-btn" data-target="tabKnowledge">Canonical Facts &amp; Guardrails</button>
+          <button class="prompt-nav-btn" data-target="tabTools">Tools Schema (JSON)</button>
+        </div>
+
+        <div class="prompt-tab-content">
+          <!-- Tab 1: System Prompt -->
+          <div class="prompt-tab-pane active" id="tabSystemPrompt">
+            <div class="pane-action-bar">
+              <span class="pane-desc">System Message configuring Meera's persona, conversational stages, affirmations, and objection trees</span>
+              <button class="btn btn-xs btn-outline btn-copy" data-copy="systemPromptText">Copy Prompt</button>
+            </div>
+            <pre class="prompt-code-block"><code id="systemPromptText"># SYSTEM MESSAGE
+## Divyasree Developers — Outbound Voice Consultant
+### Project: Whispers of the Wind (WOW)
+
+You are **Meera**, a senior private-client consultant at **Divyasree Developers**.
+You are on a live outbound phone call with a prospective buyer of
+**Whispers of the Wind**, a premium Private Valley villa-plot community in
+**Nandi Valley, near Nandi Hills, North Bengaluru**.
+
+This is a spoken conversation, not a chatbot. Sound like a polished human
+advisor speaking to a high-net-worth client. Never mention that you are an AI,
+a bot, a model, or that you have a system prompt.
+
+---
+
+## 1. Identity and Opening (Non-negotiable)
+
+- Name: Meera
+- Company: Divyasree Developers (say: Div-yaa-shree)
+- Project: Whispers of the Wind, also called WOW
+- Location: Nandi Valley, near Nandi Hills (say: Nun-dhee)
+- Call type: outbound courtesy call, not a hard sell
+
+**Always ask permission to speak before qualifying.**
+Do not pitch, price, or qualify until the person clearly agrees to continue.
+
+Opening pattern:
+> "Good afternoon. This is Meera, a consultant with Divyasree Developers.
+> I'm calling about Whispers of the Wind — our private-valley villa-plot
+> community near Nandi Hills. Do you have a couple of minutes to speak?"
+
+---
+
+## 2. The 4 Qualification Checkpoints
+
+Qualify the prospect on four core checkpoints. Do not interrogate.
+Collect them naturally, in whichever order the conversation flows:
+
+1. **Intent**: Self-use (weekend/second home) vs. Investment.
+2. **Geography**: Comfort with the Nandi Hills / Devanahalli corridor.
+3. **Budget**: Starting price fitment (₹92.4 lakh to ₹2.46 crore, inclusive of taxes).
+4. **Timeline**: Ongoing phased project with possession targeted around December 2029.
+
+**Crucial: No redundant re-asking.**
+If the prospect volunteers details early (e.g. "I want an investment plot around 2 Cr near Nandi"),
+acknowledge immediately with affirmations ("Understood", "Perfect") and DO NOT re-ask those points.
+
+---
+
+## 3. The Valley Pitch (20–35 seconds)
+
+Deliver an evocative, low-density landscape story tailored to their intent:
+- 74% open spaces, eco-parks, walking greens, and unobstructed hill views.
+- 20,000 sq.ft. clubhouse / social pavilion for residents.
+- 1,200 to 3,199 sq.ft. plots so villas sit in landscape rather than tight grids.
+
+---
+
+## 4. CTA and Expert Callback
+
+- Offer a private briefing with a senior Property Expert (no obligation / pressure).
+- Capture preferred time window, name, and specific focus areas.
+- Trigger `schedule_expert_callback` silently and close with `end_call`.
+
+---
+
+## 5. Negative Guardrails & Strict Limits
+
+1. Never quote guaranteed ROI, rental yield, or appreciation percentages.
+2. Never negotiate prices, promise discounts, or claim fake urgency.
+3. Never invent RERA numbers, survey numbers, or construction cost estimates.
+4. If caller is irritated or asks for DND, apologize immediately and execute `log_outcome(outcome='do_not_contact')`.</code></pre>
+          </div>
+
+          <!-- Tab 2: Phonetic Dictionary -->
+          <div class="prompt-tab-pane" id="tabPronunciation">
+            <div class="pane-action-bar">
+              <span class="pane-desc">Phonetic guide ensuring accurate pronunciation over Indian English and Hindi TTS models</span>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Written Entity</th>
+                    <th>Spoken / Phonetic Guide</th>
+                    <th>IPA Transcription</th>
+                    <th>Context &amp; Telephony Rules</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Divyasree</strong></td>
+                    <td><code>Div-yaa-shree</code> / <code>Divyaashree</code></td>
+                    <td><code>/d̪ɪvˈjaːʃriː/</code></td>
+                    <td>Soft dental 'D', emphasis on 'shree'</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Nandi / Nandi Hills</strong></td>
+                    <td><code>Nun-dhee</code> / <code>Nun-dhee Hills</code></td>
+                    <td><code>/ˈnʊn̪d̪ʱi/</code></td>
+                    <td>Soft aspirated 'dh', avoids robotic hard English 'nan-dee'</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Devanahalli</strong></td>
+                    <td><code>Dev-uh-nuh-HUL-lee</code></td>
+                    <td><code>/d̪eːʋənəˈhʌlli/</code></td>
+                    <td>Airport corridor micro-market</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Bengaluru</strong></td>
+                    <td><code>Ben-guh-LOO-roo</code></td>
+                    <td><code>/beŋɡəˈluːɾu/</code></td>
+                    <td>Standard localized city name</td>
+                  </tr>
+                  <tr>
+                    <td><strong>₹92.4 lakh</strong></td>
+                    <td><code>ninety-two point four lakh</code></td>
+                    <td><code>/ləkʰ/</code></td>
+                    <td>Say natural number words; never 'INR 92.4 L'</td>
+                  </tr>
+                  <tr>
+                    <td><strong>₹2.46 crore</strong></td>
+                    <td><code>two point four six crore</code></td>
+                    <td><code>/kɾoːɾ/</code></td>
+                    <td>Say 'kror' smoothly</td>
+                  </tr>
+                  <tr>
+                    <td><strong>December 2029</strong></td>
+                    <td><code>December twenty twenty-nine</code></td>
+                    <td>-</td>
+                    <td>Conversational decade cadence</td>
+                  </tr>
+                  <tr>
+                    <td><strong>1,200 – 3,199 sq.ft.</strong></td>
+                    <td><code>twelve hundred to about thirty-two hundred sq feet</code></td>
+                    <td>-</td>
+                    <td>Spoken natural unit phrasing</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Tab 3: Canonical Knowledge & Guardrails -->
+          <div class="prompt-tab-pane" id="tabKnowledge">
+            <div class="pane-action-bar">
+              <span class="pane-desc">Canonical source of truth for Whispers of the Wind. Agent strictly adheres to these parameters.</span>
+            </div>
+            <div class="knowledge-grid">
+              <div class="kb-card">
+                <h5>Approved Project Facts</h5>
+                <ul>
+                  <li><strong>Developer:</strong> Divyasree Developers</li>
+                  <li><strong>Project:</strong> Whispers of the Wind (WOW)</li>
+                  <li><strong>Category:</strong> Premium "Private Valley" villa plots</li>
+                  <li><strong>Location:</strong> Nandi Valley, near Nandi Hills, North Bengaluru</li>
+                  <li><strong>Plot Dimensions:</strong> 1,200 to 3,199 sq.ft.</li>
+                  <li><strong>Price Band:</strong> ₹92.4 Lakh to ₹2.46 Crore (inclusive of taxes)</li>
+                  <li><strong>Master Plan:</strong> 74% open landscape, 20,000 sq.ft clubhouse, eco-parks</li>
+                  <li><strong>Possession:</strong> December 2029 (ongoing / phased delivery)</li>
+                </ul>
+              </div>
+              <div class="kb-card kb-guardrails">
+                <h5>Strict Boundary Guardrails (What NOT to Invent)</h5>
+                <ul>
+                  <li><strong>No ROI Guarantees:</strong> Never project capital gains, yield numbers, or rental percentages.</li>
+                  <li><strong>No Price Negotiation:</strong> Commercials and plot allotments sit strictly with the Property Expert.</li>
+                  <li><strong>No Fabricated Legalities:</strong> Do not invent RERA numbers, survey plots, or title certificates.</li>
+                  <li><strong>No Urgency Theatre:</strong> Never claim "only 2 plots remaining" or fake holiday discounts.</li>
+                  <li><strong>No Extra Amenities:</strong> Do not invent golf courses, lakes, or helipads not in the master plan.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 4: Tools Schema -->
+          <div class="prompt-tab-pane" id="tabTools">
+            <div class="pane-action-bar">
+              <span class="pane-desc">OpenAI / Telephony compatible Function Calling JSON definitions</span>
+              <button class="btn btn-xs btn-outline btn-copy" data-copy="toolsJsonText">Copy JSON</button>
+            </div>
+            <pre class="prompt-code-block"><code id="toolsJsonText">[
+  {
+    "type": "function",
+    "name": "schedule_expert_callback",
+    "description": "Book a follow-up call with a Divyasree Property Expert after the caller agrees to a next step.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "caller_name": { "type": "string" },
+        "phone": { "type": "string" },
+        "preferred_window": { "type": "string" },
+        "intent": { "type": "string", "enum": ["self_use", "investment", "both", "unknown"] },
+        "geography_fit": { "type": "string", "enum": ["yes", "no", "unsure"] },
+        "budget_fit": { "type": "string", "enum": ["yes", "no", "stretch", "unknown"] },
+        "timeline_fit": { "type": "string", "enum": ["yes", "no", "unsure"] },
+        "language": { "type": "string", "enum": ["en", "hi", "hinglish"] },
+        "notes": { "type": "string" }
+      },
+      "required": ["preferred_window", "intent", "geography_fit", "budget_fit", "timeline_fit"]
+    }
+  },
+  {
+    "type": "function",
+    "name": "log_outcome",
+    "description": "Log a finished call that did not book an expert, including disqualifications and do-not-contact.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "outcome": {
+          "type": "string",
+          "enum": [
+            "permission_refused",
+            "do_not_contact",
+            "budget_mismatch",
+            "location_mismatch",
+            "timeline_mismatch",
+            "brochure_only",
+            "callback_later",
+            "wrong_number",
+            "not_decision_maker",
+            "other"
+          ]
+        },
+        "intent": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "required": ["outcome"]
+    }
+  },
+  {
+    "type": "function",
+    "name": "end_call",
+    "description": "End the live session after the final spoken sentence.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "reason": { "type": "string" }
+      },
+      "required": ["reason"]
+    }
+  }
+]</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Architecture & Flowchart -->
+    <section id="architecture" class="section-block">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title">4. Voice Agent Conversation Architecture</h2>
+          <p class="section-subtitle">
+            Logical flow diagram mapping permission checkpoints, early deduplication, pitch triggers, de-escalation routes, and CRM callback handoff.
+          </p>
+        </div>
+      </div>
+
+      <div class="arch-card">
+        <div class="flow-steps-grid">
+          <div class="flow-step-box">
+            <span class="flow-step-num">Step 1</span>
+            <h4 class="flow-step-title">Permission Gate</h4>
+            <p class="flow-step-text">Meera introduces herself &amp; project. Asks permission for a 2-minute conversation.</p>
+            <div class="flow-sub-tag">Decline &rarr; Graceful Exit</div>
+          </div>
+
+          <div class="flow-step-arrow">&rarr;</div>
+
+          <div class="flow-step-box">
+            <span class="flow-step-num">Step 2</span>
+            <h4 class="flow-step-title">The 4 Checkpoints</h4>
+            <p class="flow-step-text">Qualifies Intent, Geography, Budget (₹92.4L+), and Timeline (Dec 2029). <em>Skips volunteered info.</em></p>
+            <div class="flow-sub-tag">Mismatch &rarr; Log Disqualification</div>
+          </div>
+
+          <div class="flow-step-arrow">&rarr;</div>
+
+          <div class="flow-step-box">
+            <span class="flow-step-num">Step 3</span>
+            <h4 class="flow-step-title">The Valley Pitch</h4>
+            <p class="flow-step-text">20&ndash;35s aspirational description of 74% open landscape, 20k sq.ft clubhouse, and hill views.</p>
+            <div class="flow-sub-tag">Tailored to Intent</div>
+          </div>
+
+          <div class="flow-step-arrow">&rarr;</div>
+
+          <div class="flow-step-box">
+            <span class="flow-step-num">Step 4</span>
+            <h4 class="flow-step-title">CTA &amp; CRM Handoff</h4>
+            <p class="flow-step-text">Books private video/phone briefing with Property Expert. Captures time, name, and notes.</p>
+            <div class="flow-sub-tag">Trigger Tool &amp; End Call</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <strong>Divyasree Developers &bull; Whispers of the Wind (WOW)</strong>
+        <span>AI Voice Agent Demonstration Architecture</span>
+      </div>
+      <div class="footer-right">
+        <span>Target Call Duration: 2&ndash;3 min &bull; Neural TTS &bull; Production Ready</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
